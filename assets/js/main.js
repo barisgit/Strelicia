@@ -124,7 +124,7 @@
 		$wrapper._parallax(0.925);
 
 	// Nav Panel.
-
+		/*
 		// Toggle.
 			$navPanelToggle = $(
 				'<a href="#navPanel" id="navPanelToggle">Menu</a>'
@@ -195,7 +195,7 @@
 				&&	browser.osVersion < 10)
 					$navPanel
 						.css('transition', 'none');
-
+*/
 	// Intro.
 		var $intro = $('#intro');
 
