@@ -295,7 +295,6 @@
             <h3>Naslov</h3>
             <p>Nekje ob Kolpi</p>
           </section>
-          <
           <section>
             <h3>Telefon</h3>
             <p><a href="tel:+386 00 000 000">+386 00 000 000</a></p>
@@ -353,7 +352,12 @@
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
-    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/lightbox-plus-jquery.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+      lightbox.option({
+        albumLabel: "Slika %1 od %2",
+      });
+    </script>
   </body>
 </html>
