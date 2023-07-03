@@ -4768,6 +4768,14 @@ a > img {
     object-fit: cover;
 }
 
+@media screen  and (max-width: 1000px){
+	a > img {
+		width: 16vw;
+		height: 80vw;
+		object-fit: cover;
+	}
+}
+
 .col-2 > img, .col-sm-3 > img {
 	width: 100%;
 }
