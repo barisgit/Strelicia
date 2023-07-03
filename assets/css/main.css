@@ -3250,7 +3250,7 @@ input, select, textarea {
 				height: 100%;
 				background-color: #212931;
 				background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("../../images/hiska2.png");
-				background-size: auto,								auto,														150% auto;
+				background-size: auto,								auto,														130% auto;
 				background-position: center,								center,														top center;
 				background-repeat: repeat,								no-repeat,													no-repeat;
 				background-attachment: fixed,								scroll,														scroll;
@@ -4766,4 +4766,12 @@ a > img {
 	width:  18vw;
     height: 32vw;
     object-fit: cover;
+}
+
+.col-2 > img, .col-sm-3 > img {
+	width: 100%;
+}
+
+#logo {
+	width: 12rem;
 }
